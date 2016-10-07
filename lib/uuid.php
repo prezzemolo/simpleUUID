@@ -1,8 +1,14 @@
 <?php
 namespace simpleUUID;
 
+/**
+ * UUID version 4 generator class
+ */
 class gen {
-    public function eachbit () {
+    /**
+     * separate generate 8bit.
+     */
+    public function each8bit () {
         for ($i = 0x1; $i <= 0x20; $i++) {
             switch (true) {
                 case $i === 0xD:

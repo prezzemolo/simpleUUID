@@ -1,7 +1,7 @@
 php-simpleUUID
 ==========
 [![][mit-badge]][mit] [![][issue-badge]][issue]  
-simple UUID generator written by PHP.
+simple UUID version 4 generator written by PHP.
 
 Usage
 ----------
